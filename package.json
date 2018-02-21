@@ -1,0 +1,39 @@
+{
+  "name": "cleanup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "ava": {
+    "files": [
+      "./test/**/*.spec.js"
+    ],
+    "failFast": true,
+    "tap": true,
+    "verbose": true,
+    "failWithoutAssertions": false
+  },
+  "author": "Marc Höffl <marc.hoeffl@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.4.0",
+    "get-folder-size": "^1.0.0",
+    "jsonfile": "^3.0.0",
+    "lodash": "^4.17.4",
+    "modclean": "^2.1.0",
+    "moment": "^2.18.1",
+    "moment-json-parser": "^0.9.1",
+    "rmdir": "^1.2.0",
+    "round10": "^1.0.3",
+    "simple-git": "^1.70.0",
+    "terminal-table": "0.0.12",
+    "zip-folder": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "ava-spec": "^1.1.0",
+    "unexpected": "^10.27.0"
+  }
+}
